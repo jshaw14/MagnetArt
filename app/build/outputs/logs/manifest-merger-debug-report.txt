@@ -1,0 +1,106 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:5:5-32:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Acer\.android\build-cache\10f53213a41a1efb63fff23b6f354fcf28ff7442\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\Acer\.android\build-cache\e52bc90c45ed8760c2c79f0952857e68c2b8f110\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Acer\.android\build-cache\edd1f2d1f83d48035fb23f233417af0f43b6c428\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Acer\.android\build-cache\00d4d87933fdcf63be35bf7826ec4158bb7b0478\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Acer\.android\build-cache\1930bed1e070f3478ecd08b401231a722c03ac52\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Acer\.android\build-cache\ea9d312467a6525f3ebf0f8c6705cb9529cb2cf3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Acer\.android\build-cache\22de9dcbe0814595fd78bb62fdff1c84af40acc4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Acer\.android\build-cache\c5e458f4ee5f735e144f466133bcee105618f4ea\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Acer\.android\build-cache\04168ff0c050b6873d001c384822c267bf85b087\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Acer\.android\build-cache\1273862bb4bd88885c2b9365a7e525adecc098b1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Acer\.android\build-cache\ddad263c95a42dfd8ce68cda4ce3160098223c28\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Acer\.android\build-cache\57eee840d3866a60e28e676b2fd0a4fea84a9bc7\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.example.jorda.magnetart.activity.MainActivity
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:11:9-19:20
+	android:screenOrientation
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:13:13-49
+	android:name
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:12:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.jorda.magnetart.activity.UserPreferencesActivity
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:screenOrientation
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:22:13-68
+	android:name
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:21:13-61
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:26:17-63
+uses-feature#android.hardware.sensor.magnetometer
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:29:9-31:20
+	android:required
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:30:9-32
+	android:name
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:29:23-74
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml:36:22-77
+uses-sdk
+INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Acer\.android\build-cache\10f53213a41a1efb63fff23b6f354fcf28ff7442\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\Acer\.android\build-cache\e52bc90c45ed8760c2c79f0952857e68c2b8f110\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Acer\.android\build-cache\edd1f2d1f83d48035fb23f233417af0f43b6c428\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Acer\.android\build-cache\00d4d87933fdcf63be35bf7826ec4158bb7b0478\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Acer\.android\build-cache\3f84d309427b613e2481a9f9bd28991978171c5d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Acer\.android\build-cache\1930bed1e070f3478ecd08b401231a722c03ac52\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Acer\.android\build-cache\ea9d312467a6525f3ebf0f8c6705cb9529cb2cf3\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Acer\.android\build-cache\22de9dcbe0814595fd78bb62fdff1c84af40acc4\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Acer\.android\build-cache\c5e458f4ee5f735e144f466133bcee105618f4ea\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Acer\.android\build-cache\04168ff0c050b6873d001c384822c267bf85b087\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Acer\.android\build-cache\1273862bb4bd88885c2b9365a7e525adecc098b1\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Acer\.android\build-cache\ddad263c95a42dfd8ce68cda4ce3160098223c28\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Acer\.android\build-cache\57eee840d3866a60e28e676b2fd0a4fea84a9bc7\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] C:\Users\Acer\.android\build-cache\e52bc90c45ed8760c2c79f0952857e68c2b8f110\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Acer\Documents\MagnetArt\MagnetArt\app\src\main\AndroidManifest.xml

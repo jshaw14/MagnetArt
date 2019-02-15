@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/sensor_readings"
+        android:title="Hide sensor readings"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_spot"
+        android:title="Spot"
+        android:icon="@drawable/spots_white"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_smoothline"
+        android:title="@string/action_smoothline"
+        android:icon="@drawable/line_white"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_rectangle"
+        android:title="@string/action_rectangle"
+        android:icon="@drawable/rectangle_white"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_circle"
+        android:title="@string/action_circle"
+        android:orderInCategory="100"
+        android:icon="@drawable/circle_white"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_triangle"
+        android:title="@string/action_triangle"
+        android:icon="@drawable/triangle_white"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/recalibrate"
+        android:title="Recalibrate"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/strokecolour"
+        android:title="Stroke Colour"
+        android:icon="@drawable/ic_palette_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/bgcolour"
+        android:title="Background Colour"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/clear"
+        android:title="Clear"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/savetodevice"
+        android:title="Save to Device"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/settingsfromdrawing"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>

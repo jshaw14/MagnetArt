@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/helpscrollview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/helpfirstpp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/help_para_1"
+            />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="314dp"
+            android:id="@+id/helpimage1"
+            android:layout_below="@+id/helpfirstpp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/screen_nodrawings"/>
+
+        <TextView
+            android:id="@+id/helpsecondpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/helpimage1"
+            android:text="@string/help_para_2"
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="314dp"
+            android:id="@+id/helpimage2"
+            android:layout_below="@+id/helpsecondpp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/screen_loading"/>
+        <TextView
+            android:id="@+id/helpthirdpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/helpimage2"
+            android:text="@string/help_para_3"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="314dp"
+            android:id="@+id/helpimage3"
+            android:layout_below="@+id/helpthirdpp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/screen_calibrating"/>
+
+        <TextView
+            android:id="@+id/helpfourthpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/helpimage3"
+            android:text="@string/help_para_4"/>
+
+        <TextView
+            android:id="@+id/helpfifthpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/helpfourthpp"
+            android:text="@string/help_para_5"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="314dp"
+            android:id="@+id/helpimage4"
+            android:layout_below="@+id/helpfifthpp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/screen_colourbar"/>
+
+        <TextView
+            android:id="@+id/helpsixthpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/helpimage4"
+            android:text="@string/help_para_6"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="314dp"
+            android:id="@+id/helpimage5"
+            android:layout_below="@+id/helpsixthpp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/screen_viewdrawing"/>
+
+
+        <TextView
+            android:id="@+id/helpseventhpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/helpimage5"
+            android:text="Now you have read the tutorial, you are ready to produce some artwork!  Press the button below to begin drawing and explore the app features."/>
+
+        <Button
+            android:id="@+id/helpreturnbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/helpimage5"
+            android:layout_gravity="bottom"
+            android:background="@drawable/custom_button"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="Draw"/>
+
+    </RelativeLayout>
+
+</ScrollView>

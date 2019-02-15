@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:ignore="MergeRootFrame" >
+
+    <com.example.jorda.magnetart.view.NewDrawingView
+        android:id="@+id/drawingview"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    </com.example.jorda.magnetart.view.NewDrawingView>
+
+<RelativeLayout
+    android:id="@+id/buttonsandreadings"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/earthx"
+        android:text="Earth_mag_x" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/earthy"
+        android:layout_below="@+id/earthx"
+        android:text="Earth_mag_y" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/earthz"
+        android:layout_below="@+id/earthy"
+        android:text="Earth_mag_z!" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensorx"
+        android:layout_below="@+id/earthz"
+        android:text="Sensor_x" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensory"
+        android:layout_below="@+id/sensorx"
+        android:text="Sensor_y" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensorz"
+        android:layout_below="@+id/sensory"
+        android:text="Sensor_z" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tlreadings"
+        android:layout_below="@+id/sensorz"
+
+        android:text="TL:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trreadings"
+        android:layout_below="@+id/tlreadings"
+
+        android:text="TR:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blreadings"
+        android:layout_below="@+id/trreadings"
+        android:text="BL:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brreadings"
+        android:layout_below="@+id/blreadings"
+        android:text="BR:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayAlgorithm"
+        android:layout_below="@+id/brreadings"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/screenx"
+        android:layout_below="@+id/displayAlgorithm"
+
+        android:text="Screen Coord X" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/screeny"
+        android:layout_below="@+id/screenx"
+
+        android:text="Screen Coord Y" />
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/tlbutton"
+        android:background="@color/colorGrey"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/trbutton"
+        android:background="@color/colorGrey"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/blbutton"
+        android:background="@color/colorGrey"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/brbutton"
+        android:background="@color/colorGrey"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+</RelativeLayout>

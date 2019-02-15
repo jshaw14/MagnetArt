@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">MagnetArt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_debug">Debug</string>
+    <string name="action_line">Line</string>
+    <string name="action_smoothline">Smoothline</string>
+    <string name="action_square">Square</string>
+    <string name="action_circle">Circle</string>
+    <string name="action_rectangle">Rectangle</string>
+    <string name="action_triangle">Triangle</string>
+    <string name="title_activity_user_preferences">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="clear_message">Are you sure you want to clear the drawing?</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_selectbgc">Select Background Colour</string>
+    <string name="bcf_classcastexception">Calling fragment must implement the BackgroundColourListener Interface</string>
+    <string name="Fragment_not_Displayed">Fragment cannot be displayed</string>
+    <string name="app_title">MagnetArt</string>
+    <string name="dialog_confirmdelete">Are you sure you wish to delete this drawing?</string>
+    <string name="image_not_disp">Could not display image</string>
+    <string name="settings_not_loaded">Could not load settings</string>
+    <string name="help_not_loaded">Could not load help screen</string>
+    <string name="nds_not_loaded">Could not load new drawing screen</string>
+    <string name="help_title">How to Use MagnetArt</string>
+    <string name="file_deleted">File Deleted</string>
+    <string name="delete_error">Error in deleting file</string>
+    <string name="error_actionbar">Could not access actionBar</string>
+    <string name="variable_wrong_type">Variable is of the wrong type</string>
+    <string name="algorithm_nullpointer">Could not get algorithm value</string>
+    <string name="chosen_algo">You have selected</string>
+    <string name="select_stroke">Select Stroke Colour</string>
+    <string name="no_sensor">No magnetometer found</string>
+    <string name="dialog_null_pointer">Could not open dialog</string>
+    <string name="ioexception">IOException</string>
+    <string name="nullpointer">NullPointerException</string>
+    <string name="filenotfound">FileNotFoundException</string>
+    <string name="sensor_0">Unreliable</string>
+    <string name="sensor_1">Low accuracy</string>
+    <string name="sensor_2">Medium accuracy</string>
+    <string name="sensor_3">High accuracy</string>
+    <string name="help_para_1">Welcome to MagnetArt! This app offers a unique drawing experience. MagnetArt is designed to be used a cylindrical or disc magnet. Place the phone or tablet on a flat surface next to the area where you wish to draw. To create a new drawing press the plus button on the home screen.</string>
+    <string name="help_para_2">A dialog will be shown as the device calculates the background magnetic field. When this dialog disappears, place the magnet in a corner of the drawing area and press the button to calibrate that corner. Each button will turn green when calibrated.</string>
+    <string name="help_para_3">Repeat this for all four corners. When all four corners have been calibrated you are ready to begin drawing. The drawing shapes can be chosen using the menu. The default shape is a spot drawn at the magnet position.</string>
+    <string name="help_para_4">The corners of the triangle or rectangle are drawn when a finger is placed onscreen. Place a finger onscreen and move the magnet to draw a side. To draw a circle place a finger onscreen and move the magnet to determine the radius.</string>
+    <string name="help_para_5">The stroke colour and background colour can also be changed using the menu. When the colour bar is shown, move the magnet to select a colour and press confirm.</string>
+    <string name="help_para_6">To save a drawing, either press save on the menu or press your device back button. Confirm you wish to save. You can view your saved drawings when you return to the app home screen. You can scroll through your saved drawings and click on a drawing to view it. To delete an image press the bin icon and confirm.</string>
+    <string name="calib_not_complete">Calibration not complete</string>
+</resources>
